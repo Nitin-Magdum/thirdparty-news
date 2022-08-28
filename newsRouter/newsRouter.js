@@ -4,7 +4,7 @@ const {VerifyToken}=require('../Middleware/authToken')
 const {
   SearchByTitle,
   GetnewsByCategory,
-} = require("../NewsController/NewsController");
+} = require("../newsController/NewsController");
 
 router.get("/news/search", SearchByTitle);
 router.get("/news", GetnewsByCategory);
