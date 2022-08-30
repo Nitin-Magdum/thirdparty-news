@@ -12,3 +12,4 @@ app.use("/api/v1", newsRoutes);
 app.listen(8000, () => {
   console.log("Server is running at port 8000");
 });
+module.exports = app;
